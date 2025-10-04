@@ -32,6 +32,7 @@ import org.apache.iceberg.types.Type.TypeID
 import org.apache.spark.SparkThrowable
 import org.apache.spark.internal.{LoggingShims, MDC}
 import org.apache.spark.sql.{Dataset, SparkSession}
+import org.apache.spark.sql.catalyst.catalog.CatalogTable
 import org.apache.spark.sql.types.StructType
 
 

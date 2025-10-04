@@ -23,6 +23,7 @@ import scala.collection.JavaConverters._
 import org.apache.spark.sql.delta.{DeltaColumnMappingMode, DeltaLog, NoMapping, SerializableFileStatus}
 
 import org.apache.spark.sql.Dataset
+import org.apache.spark.sql.catalyst.catalog.CatalogTable
 import org.apache.spark.sql.functions.sum
 import org.apache.spark.sql.types.StructType
 
